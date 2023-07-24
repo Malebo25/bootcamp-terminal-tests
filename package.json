@@ -27,6 +27,7 @@
     "dev": "",
     "test": "mocha"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }

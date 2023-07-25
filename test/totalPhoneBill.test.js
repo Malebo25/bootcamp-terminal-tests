@@ -1,5 +1,5 @@
 import assert from "assert";
-import totalPhoneBill from "../totalPhoneBill.js";
+import totalPhoneBill from "../functions/totalPhoneBill.js";
 describe("Test my totalPhoneBill function", function () {
   it("it should return 'R7.45' when called with a comma separated string", function () {
     assert.equal("R7.45", totalPhoneBill("call, sms, call, sms, sms"));

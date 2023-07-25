@@ -1,5 +1,5 @@
 import assert from "assert";
-import isFromBellville from "../isFromBellville.js";
+import isFromBellville from "../functions/isFromBellville.js";
 describe("Test my isFromBellville function", function () {
   it("it should return 'True' when called with a registration number that starts with CY", function () {
     assert.equal(true, isFromBellville("CY 123")), "This should be true";

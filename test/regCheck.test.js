@@ -1,5 +1,5 @@
 import assert from "assert";
-import regCheck from "../regCheck.js";
+import regCheck from "../functions/regCheck.js";
 describe("Test my regCheck function", function () {
   it("it should return 'True' when the second parameter matches the last two characters of the first parameter", function () {
     assert.equal(true, regCheck("DC 55 YU GP", "GP")), "This should be true";

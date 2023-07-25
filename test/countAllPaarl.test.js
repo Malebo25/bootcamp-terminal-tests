@@ -1,5 +1,5 @@
 import assert from "assert";
-import countAllPaarl from "../countAllPaarl.js";
+import countAllPaarl from "../functions/countAllPaarl.js";
 describe("Test my CountAllPaarl function", function () {
   it("it should return '2' when after counting all the registration numbers that start with CJ", function () {
     assert.equal(2, countAllPaarl("CJ 345 123, CK 345, CJ 123"));

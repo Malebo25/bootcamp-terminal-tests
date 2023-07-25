@@ -1,5 +1,5 @@
 import assert from "assert";
-import findItemsOver from "../findItemsOver.js";
+import findItemsOver from "../functions/findItemsOver.js";
 describe("Test my FindItemsOver function", function () {
   it("it should return  object items with quantities greater than 20", function () {
     var itemList = [

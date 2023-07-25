@@ -1,5 +1,5 @@
 import assert from "assert";
-import countAllFromTown from "../countAllFromTown.js";
+import countAllFromTown from "../functions/countAllFromTown.js";
 describe("Test my CountAllFromTown function", function () {
   it("it should return '2' after counting all the registration numbers that start with the second parameter", function () {
     assert.equal(

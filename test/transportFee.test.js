@@ -1,5 +1,5 @@
 import assert from "assert";
-import transportFee from "../transportFee.js";
+import transportFee from "../functions/transportFee.js";
 
 describe("Test my transportFee function", function () {
   it("it should return 'R20' when called with a parameter of 'morning'", function () {

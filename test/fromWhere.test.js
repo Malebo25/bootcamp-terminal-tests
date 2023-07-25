@@ -1,5 +1,5 @@
 import assert from "assert";
-import fromWhere from "../fromWhere.js";
+import fromWhere from "../functions/fromWhere.js";
 describe("Test my fromWhere function", function () {
   it("it should return 'Bellville' when called with a parameter of 'CY'", function () {
     assert.equal("Bellville", fromWhere("CY"));

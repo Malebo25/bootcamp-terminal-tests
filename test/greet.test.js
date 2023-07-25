@@ -1,5 +1,5 @@
 import assert from "assert";
-import greet from "../greet.js";
+import greet from "../functions/greet.js";
 describe("Test my greet function", function () {
   it("it should return 'Hello, Malebo' when called with 'Malebo'", function () {
     assert.equal("Hello, Malebo", greet("Malebo")), "This should not be true";
